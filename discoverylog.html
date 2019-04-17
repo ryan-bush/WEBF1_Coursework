@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Discovery Log</title>
+        <link rel="stylesheet" href="styles/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    	<nav>
+    		<ul>
+    			<li><a href="index.html" aria-label="Home">Home</a></li>
+		  		<li><a href="discoverylog.html" class="clicked" aria-label="Discovery Log">Discovery Log</a></li>
+		  		<li><a href="litreview.html" aria-label="Literature Review">Literature Review</a></li>
+		  		<li><a href="video.html" aria-label="Video">Video</a></li>
+			</ul>
+		</nav>
+		<section class="first container">
+			<h1>Discovery Log</h1>
+			<p>This log book was created on a weekly basis to record my learning within the WEBF1 unit and help me with my Literature Review. Click each week to expand the selection. Hover over images to make them larger.</p>
+			<button class="collapse roundTop" aria-label="Expand">Week 1 - Introduction</button>
+			<article class="content content-image">
+				<p>During this week we were shown out Virtual Machines (VM) and how to connect to them. I was able to connect to the VM using a secure shell and create a simple HTML page, which I was then able to view within my browser.</p>
+				<p><img src="img/img_disc_wk1.png" alt="Virtual Machine" class="zoomable"></p>
+			</article>
+
+			<button class="collapse" aria-label="Expand">Week 2 - Web Security</button>
+			<article class="content">
+				<p>In this weeks lecture I learned about Social Engineering and how even the smallest amount of information could lead to hackers finding out a large amount of data about you.</p>
+				<p>In the practical we looked at how data is collected by companies and how it can be safely stored and protected. We worked as a group to list data which could be collected on a daily basis, and how we can ensure it is kept up to date and not misused.</p>
+			</article>
+
+			<button class="collapse" aria-label="Expand">Week 3 - Reviewing Literature</button>
+			<article class="content">
+				<p>In this lecture I learned what a literature review is and how to find sources that would be relevant to the topic I am reviewing.</p>
+				<p>In the practical we spent the time researching some articles which could be useful in our literature review. After the practical I looked in more detail at articles related to the title of my literature review.</p>
+			</article>
+
+			<button class="collapse" aria-label="Expand">Week 4 - Academic Writing</button>
+			<article class="content">
+				<p>In this lecture I learned the best guidances for writing a literature review, and how best to edit it once it was  written. I spent time after this lecture to review what I had already wrote, and found a few mistakes in what I had done.</p>
+				<p>In the practical we worked as a group to improve several pieces of text which were written incorrectly. They included basic spelling mistakes, as well as more complex grammatically incorrect sentences. </p>
+			</article>
+
+			<button class="collapse" aria-label="Expand">Week 5 - Introduction to Markup</button>
+			<article class="content content-image">
+				<p>In this lecture I learned the basics of a webpage and how computers understand HTML and URLs to display content the the user. We were also shown the importance of every HTML website starting with <code>&ltDOCTYPE html&gt</code>.</p>
+				<p>In the practical I created a simple web page and uploaded it to the VM using a secure connection. I then started a web server so the page could be viewed.</p>
+				<p><img src="img/img_disc_wk5_1.png" alt="Simple Webpage" class="zoom"></p>
+				<p><img src="img/img_disc_wk5_2.png" alt="Web Server" class="zoom"></p>
+			</article>
+
+			<button class="collapse" aria-label="Expand">Week 7 - Separating Form and Content</button>
+			<article class="content content-image">
+				<p>In this lecture I learned the differences between markup and stylesheets, and saw a introduction into CSS. After the lecture I ensured that I had linked my stylesheet correctly and made sure all my styling was in my stylesheet.</p>
+				<p>In the practical I had to create a simple webpage with some embedded CSS within the page. I then went on to create a linked stylesheet and added it into my webpage. I also used class and ID selectors to assign CSS to certain parts of my webpage.</p>
+				<p><img src="img/img_disc_wk7_1.png" alt="Embedded CSS" class="zoom"></p>
+				<p><img src="img/img_disc_wk7_2.png" alt="Linked CSS" class="zoom"></p>
+				<p><img src="img/img_disc_wk7_3.png" alt="Webpage with CSS" class="zoom"></p>
+			</article>
+
+			<button class="collapse" aria-label="Expand">Week 8 - Productivity and Efficiency: Editors</button>
+			<article class="content">
+				<p>In this weeks lecture I learned about features within editors to make coding more easier. These things include:</p>
+				<ul>
+					<li>Multiple cursors to edit multiple lines at the same time.</li>
+					<li>Highlighting searching to quickly see the same text.</li>
+					<li>Syntax highlighting to allow visual improvements to your code.</li>
+					<li>Live preview to enable you to see your web page without refreshing the page.</li>
+					<li>Theme customisation to allow more user preferences.</li>
+				</ul>
+				<p>During the practical session I followed a worksheet to change various settings on Atom to make the editor easier to use and more suited to my style of coding.</p>
+				<p>I also looked at several other editors such as Notepad++ and jetBeans phpStorm. After tweaking several settings on all three editors I decided to continue using jetBeans phpStorm, as I have been using it for developing webpages for several years.</p>
+			</article>
+
+			<button class="collapse" aria-label="Expand">Week 9 - Design</button>
+			<article class="content">
+				<p>In this weeks lecture I learned more about the Model Controller (MVC) concept, and looked at what each of them mean and how they can make a website better for the end user..</p>
+				<p>I also learned more about the technical aspects of designing a website and how to understand what the end user wants, and how bad designs enables human errors.</p>
+			</article>
+
+			<button class="collapse" aria-label="Expand">Week 10 - Using Images</button>
+			<article class="content">
+				<p>In this lecture I learned about how to include images into a web page using the img tag. I was also shown how you can float the images differently to make the page look different. I was also shown how to crop images using CSS, to make them look much different. We were also briefly shown how to add videos to a web page using the <code>&ltvideo&gt</code> tag.</p>
+				<pre><code>&ltimg src="img/cat.png" alt="Cat"&gt</code></pre>
+				<pre><code>&ltvideo width=100% controls&gt
+<!-- 			-->	&ltsource src="img/video.mp4" type="video/mp4"&gt
+<!-- 			-->	&ltsource src="img/video.ogg" type="video/ogg"&gt
+<!-- 			-->	I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+&ltvideo&gt</code></pre>
+			</article>
+
+			<button class="collapse" aria-label="Expand">Week 13 - Addressing the Web</button>
+			<article class="content content-image">
+				<p>In this lecture I learnt in a greater depth about how web pages are addressed, including the use of schemas, hostnames, ports, usernames and passwords, query strings and fragments to ensure the correct page is loaded.</p>
+				<p>During the practical session I created a simple web page which had links to external web pages (BBC News, Reddit, YouTube and Gmail). I then added local links to three pages (About, Studies and Music), which when clicked went to the local page on my website.</p>
+				<p><img src="img/img_disc_wk13_1.png" alt="Links" class="zoom"></p>
+				<p><img src="img/img_disc_wk13_2.png" alt="Link file structure" class="zoom"></p>
+				<p><img src="img/img_disc_wk13_3.png" alt="Links webpage" class="zoom"></p>
+			</article>
+
+			<button class="collapse" aria-label="Expand">Week 14 - Website Validation</button>
+			<article class="content content-image">
+				<p>During the practical I looked at some of the standards that are used in HTML5 and CSS. I also used the w3 validator on a previous website to ensure my webpages were all valid HTML5 and CSS. When I checked my webpage for the previous weeks practical session it returned 4 warning.</p>
+				<p><img src="img/img_disc_wk14.png" alt="Warnings on validator" class="zoom"></p>
+			</article>
+
+			<button class="collapse" aria-label="Expand">Week 15 - Standards</button>
+			<article class="content content-image">
+				<p>During this lecture we discussed the importance of using standards when creating web pages. We looked at the standards for HTML5 and CSS among others. I also looked in closer detail on how the W3C and IETF come up with their new ideas.</p>
+			</article>
+
+			<button class="collapse roundBottom" aria-label="Expand">Week 16 - Usability</button>
+			<article class="content content-image">
+				<p>During this lecture I learnt in more detail the importance of usability and how the end user interacts with the website. I also paid close attention to the many usability mistakes that are often used, as I noticed I have done some of them before.</p>
+				<p>During the practical session I looked in more detail at ISO 9241-151, which outlines the guidlines for web usability. I also looked at how responsive and adaptive designs help users on mobile platforms, and why it is important to think of them in the design process.</p>
+				<p><img src="img/img_disc_wk16.png" alt="Usability Mistakes" class="zoom"></p>
+			</article>
+		</section>
+		<button id="goToTop" aria-label="Go to top" title="Go to top">Top</button>
+		<footer>
+			<p>W3C Validator <a href="http://validator.w3.org/check?uri=referer" title="Validate this Webpage" aria-label="HTML Validator" target="_blank">HTML Validator</a></p>
+		</footer>
+	<script>
+		// Collapsable Buttons
+		var coll = document.getElementsByClassName("collapse");
+		var i;
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight){
+					content.style.maxHeight = null;
+				} else {
+					if(content.classList.contains("content-image")) {
+						content.style.maxHeight = "none";
+					} else {
+						content.style.maxHeight = content.scrollHeight + "px";
+					}
+				}
+			});
+		}
+
+		// Go to Top button
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > 50) {
+					$('#goToTop').fadeIn();
+				} else {
+					$('#goToTop').fadeOut();
+				}
+			});
+			$('#goToTop').click(function(){
+				$('html, body').animate({scrollTop : 0},700);
+				return false;
+			});
+		});
+	</script>
+	</body>
+</html>
